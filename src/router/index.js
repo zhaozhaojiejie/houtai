@@ -11,18 +11,19 @@ const routes = [
     path: '/',
     redirect: '/home'
   },
-  // 登录页面
-  {
-    path: '/login',
-    name: 'Login',
-    conponent: Login
-  },
-  // 主页面
   {
     path: '/home',
     name: 'Home',
     component: Home
+  },
+  // 登录页面
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login// 注意单词不能写错
   }
+  // 主页面
+
   // {
   //   path: '/about',
   //   name: 'About',

@@ -1,14 +1,19 @@
 <template>
-<div id='login'>
-    <span>我是登录页</span>
+<div class='login'>
+
 </div>
 </template>
 
 <script>
-
 export default {
-  name: 'login'
 }
 </script>
 
-<style scoped></style>
+<style lang='less' scoped>
+.login {
+    background-image:url(../../assets/img/login_bg.jpg) ;
+    background-size:cover;
+    height: 100vh;//相当于图片可视去100%高度
+
+}
+</style>
